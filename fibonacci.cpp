@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace  std;
 
 // number of Fibonacci terms to generate
 void Fibonacci(int n){
@@ -14,8 +14,8 @@ void Fibonacci(int n){
         t1 = t2;
         t2 = nextTerm;
     }
+    cout << "" << endl;
 }
-
 
 int main() {
 
